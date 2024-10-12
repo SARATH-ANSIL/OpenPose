@@ -31,14 +31,14 @@ pip install numpy ffmpeg-python yt-dlp
 ```
 ## How It Works
 
--**Clone OpenPose Repository**: The OpenPose repository is cloned from GitHub, which contains the necessary scripts for pose detection.
--**Install Dependencies**: Required system and Python dependencies are installed.
--**Build OpenPose**: The OpenPose library is built using CMake.
--**Download Models**: OpenPose models for pose detection are downloaded.
--**Video Processing**:
+- **Clone OpenPose Repository**: The OpenPose repository is cloned from GitHub, which contains the necessary scripts for pose detection.
+- **Install Dependencies**: Required system and Python dependencies are installed.
+- **Build OpenPose**: The OpenPose library is built using CMake.
+- **Download Models**: OpenPose models for pose detection are downloaded.
+- **Video Processing**:
 The specified YouTube video is downloaded.
 A segment (from 15 to 20 seconds) is cut from the video.
--**Pose Detection**: OpenPose processes the cut video segment to detect poses and generates an output video.
+- **Pose Detection**: OpenPose processes the cut video segment to detect poses and generates an output video.
 
 ## Running the Project
 Open the Jupyter Notebook:
